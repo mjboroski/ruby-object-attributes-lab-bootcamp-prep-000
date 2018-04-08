@@ -1,16 +1,14 @@
 class Person
 
   def initialize(name)
-    binding.pry
     @name = name
   end
 
   def name
     @name
   end
-
-    def name=(name)
-      binding.pry
+###
+  def name=(name)
     @name = name
   end
 
