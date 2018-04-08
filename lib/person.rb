@@ -10,6 +10,7 @@ class Person
   end
 
     def name=(name)
+      binding.pry
     @name = name
   end
 
